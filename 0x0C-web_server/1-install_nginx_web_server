@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # Installs nginx server
+ssh ubuntu@100.25.19.204
+betty
 apt-get update
 apt-get -y install nginx
 ufw allow 'Nginx HTTP'
