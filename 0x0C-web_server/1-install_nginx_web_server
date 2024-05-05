@@ -1,4 +1,4 @@
-#!/usr/bin/env/bash
+#!/usr/bin/env bash
 # cmds to install nginx and configures it on a remote server
 
 sudo apt-get update
@@ -10,4 +10,4 @@ echo "Hello world!" | sudo tee /var/www/html/index.html
 #testing nginx configuration
 sudo nginx -t
 
-sudo service reload nginx
+sudo service nginx reload
