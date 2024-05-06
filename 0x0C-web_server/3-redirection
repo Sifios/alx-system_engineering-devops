@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script that configures a new Ubuntu machine to respect above requirements
+# performing a 301 moved permanently
 
 sudo apt-get update
 sudo apt-get install -y nginx
