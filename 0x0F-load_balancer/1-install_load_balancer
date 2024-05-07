@@ -16,8 +16,8 @@ frontend  sifios-frontend
         default_backend ehoneah-backend
 backend sifios-backend
         balance roundrobin
-        server 422112-web-01 100.25.46.249:80 check
-        server 422112-web-02 52.207.124.92:80 check
+        server 422112-web-54.237.1.223:80 check
+        server 422112-web-100.26.234.143:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
